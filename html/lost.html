@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<title>Tomato's Portfolio</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="https://frankietomato.w3spaces.com/favicon.ico?bypass-cache=1630988075" type="image/x-icon">
+<link rel="icon" href="https://frankietomato.w3spaces.com/favicon.ico?bypass-cache=1630988075" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="TomatoFrankie, Tomato 番茄, 原創, 廣東歌, Cantopop, 填詞">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    /* body,h1,h2,h3,h4,h5,h6 {
+        class="center";
+    } */
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 61.8%;
+    }
+    h1 {
+        text-align: center;
+    }
+    #myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      outline: none; /* Remove outline */
+      color: black ; /* Text color */
+      cursor: auto; /* Add a mouse pointer on hover */
+      padding: 10px; /* Some padding */
+      border: none;
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+      background-color: transparent;
+    }
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top <i class="fa fa-level-up"></i></button>
+  <!-- Header -->
+  <header id="top"></header>
+    <div class="w3-container">
+    <br><br>
+    <a style="text-decoration: none; font-size: large;" href="https://frankietomato.w3spaces.com">&#8592 Back</a>
+    <br><br><h1 class="w3-border-bottom w3-border-top w3-padding"><b>失約</b></h1><br><br>
+    <iframe height="480" src="https://www.youtube.com/embed/qjpTFJm6jtw" class="center" allow="fullscreen"></iframe><br><br>
+    <pre style="background-color:rgb(253, 253, 253);" class="center w3-border w3-round"> 
+
+    (原曲：無期 Aga)
+
+
+    夢與你相擁 獨佔我心中 多失控
+    情分未算重 長夜就算凍 也未會被煽動
+    獨唱的歌 如此作弄
+    是你不顧你我約定 任性得心痛
+    每日亦佔領心中 心裡也相通 都失蹤
+    從未讓你痛 從未讓你凍 也許那是我沒用
+    望那天空 無端作弄
+    當初的約定也許只聽到那半句耳中
+    
+    過去那是幻象這是現實 原來是從沒有一起
+    過去那段夢幻相約共你 那錯覺仍然是最美
+    當天相約共你飛 今晚已錯過還是未心死 
+    誰人可比
+    過去那份魅力那份動力 仍然難留在你心扉
+    過去一盞街燈一再伴你 難明瞭誰人是愛你
+    曾共你的時期 已經很神奇
+    不知道誰懂你
+    
+    受過了風沙 受夠了傷疤 都不化
+    誰又讓你怕 誰又念你掛 我地也就算吧
+    任性的她 如此作罷
+    當初的約定有嗎不想給我約是你嗎
+    
+    過去那是幻象這是現實 原來是從沒有一起
+    過去那段夢幻相約共你 那錯覺仍然是最美
+    當天相約共你飛 今晚已錯過還是未心死 
+    誰人可比
+    過去那份魅力那份動力 仍然難留在你心扉
+    過去一盞街燈一再伴你 難明瞭誰人是愛你
+    曾共你的時期 已經很神奇
+    不知道誰懂你
+    
+    過去那份魅力那份動力 原來還留在我心扉
+    過去一盞街燈一再伴你
+    其實也很神奇 已經很離奇
+    只想我能懂你 也掛念你 未怕死
+    
+    
+    18年春
+
+    </pre>
+    </div>
+  </header><br><br>
+
+  
+  <div class="w3-black w3-center w3-padding-24"><a href="https://www.youtube.com/channel/UCWo5mWNWD2Glki2KsYwOJ8A" title="Tomatofrankie" target="_blank" class="w3-hover-opacity">Tomatofrankie</a>&nbsp@ 2018-present. All rights reserved.</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+</body>
+</html>
