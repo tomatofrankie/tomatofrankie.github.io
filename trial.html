@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="zh-Hant">
+
+<head>
 <title>Tomato's Portfolio</title>
 <base href="https://tomatofrankie.github.io/">
 
@@ -27,9 +30,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link type="text/css" rel="stylesheet" href="/Users/frankie/Downloads/flaviusmatis-simplePagination.js-da97104/simplePagination.css"/>
-<script type="text/javascript" src="/Users/frankie/Documents/frankietomatospace/html/jquery.js"></script>
-<script type="text/javascript" src="/Users/frankie/Documents/frankietomatospace/html/pagination.js"></script>
+
 <style>
     /* body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif} */
 .filterDiv {
@@ -42,7 +43,7 @@
 }
 
 .container {
-  margin-top: 20px;
+  margin-top: 30px;
   overflow: hidden;
 }
 
@@ -82,10 +83,22 @@
     background-color: black;
     color: whitesmoke;
 }
+
+.longcontainer {
+  height: 135px
+}
+
+.middlecontainer {
+  height: 113px
+}
+
+.shortcontainer {
+  height: 91px
+}
 </style>
+</head>
+
 <body class="w3-content w3-light-grey" style="max-width:1600px">
-
-
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
   <div class="w3-container">
@@ -104,8 +117,8 @@
   <div class="w3-panel w3-large">
     <a href="https://www.facebook.com/tomatotofrankie" title="粉專" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <a href="https://www.instagram.com/tomato.frankie/" title="IG" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://www.youtube.com/channel/UCWo5mWNWD2Glki2KsYwOJ8A" title="YouTube" target="_black"><img src="https://frankietomato.w3spaces.com/yt2.png?bypass-cache=1630051227" alt="My Main Channel" style="width:17px;height:17px"></a>
-    <a href="https://www.youtube.com/channel/UCrlPId80vwGt70tDmaHdDeA" title="YouTube" target="_black"><img src="https://frankietomato.w3spaces.com/yt2.png?bypass-cache=1630051227" alt="My Second Channel" style="width:17px;height:17px"></a>
+    <a href="https://www.youtube.com/channel/UCWo5mWNWD2Glki2KsYwOJ8A" title="YouTube" target="_black"><img src="resources/yt3.png" alt="My Main Channel" style="width:17px;height:17px"></a>
+    <a href="https://www.youtube.com/channel/UCrlPId80vwGt70tDmaHdDeA" title="YouTube" target="_black"><img src="resources/yt3.png" alt="My Second Channel" style="width:17px;height:17px"></a>
     <!-- <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
@@ -136,63 +149,66 @@
     </div>
   </header>
     
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding container 1" id="1">
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics">
-      <a href="https://frankietomato.w3spaces.com/re-ignite.html"><img src="https://frankietomato.w3spaces.com/re-ignite.jpg?bypass-cache=1630233114" alt="重燃" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
+  <!--Photo Grids-->
+  <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container" id="container">
+      <a href="re-ignite.html"><img src="resources/re-ignited.jpg" alt="重燃" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white longcontainer">
         <p><b>重燃</b></p>
         <p>明天再見你都似夢境<br>
           如今這世界亦也都變
-          ...<a href="https://frankietomato.w3spaces.com/re-ignite.html" title="重燃">more</a></p>
+          ...<a href="re-ignite.html" title="重燃">more</a></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics">
-      <a href="https://frankietomato.w3spaces.com/change.html"><img src="https://frankietomato.w3spaces.com/Change.jpg?bypass-cache=1630235022" alt="突變" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container" id="container">
+      <a href="change.html"><img src="resources/change.jpg"  alt="突變" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white longcontainer">
         <p><b>突變</b></p>
         <p>你沒有說分開 無聲的傷害<br>
-          你仍留在心中 忘記這舊愛...<a href="https://frankietomato.w3spaces.com/change.html" title="突變">more</a></p>
+          你仍留在心中 忘記這舊愛...<a href="change.html" title="突變">more</a></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics">
-      <a href="https://frankietomato.w3spaces.com/lost.html"><img src="https://frankietomato.w3spaces.com/miss.jpg?bypass-cache=1630236029" alt="失約" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <p><b>突變</b></p>
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container" id="container">
+      <a href="lost.html"><img src="resources/lost.jpg" alt="失約" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white longcontainer">
+        <p><b>失約</b></p>
         <p>夢與你相擁 獨佔我心中 多失控<br>
-          情分未算重 長夜就算凍 也未會被煽動...<a href="https://frankietomato.w3spaces.com/lost.html" title="突變">more</a></p>
+          情分未算重 長夜就算凍 也未會被煽動...<a href="lost.html" title="失約">more</a></p>
       </div>
     </div>
-  </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding container w3-light-grey 2" id="2">
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics">
-      <a href="https://frankietomato.w3spaces.com/darkness.html"><img src="https://frankietomato.w3spaces.com/futureless.jpg?bypass-cache=1630236078" alt="看不到明天" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
+
+    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container" id="container">
+      <a href="darkness.html"><img src="resources/redscarf.jpg"  alt="如果可以" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white shortcontainer">
+        <p><b>如果可以</b></p>
+        <p><a href="https://youtu.be/G3RADhu-dGU" target="_blank">觀看影片</a><br><br></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container" id="container">
+      <a href="https://youtu.be/x6SgVQEFG58"><img src="resources/abouttime.jpg" alt="時候不早" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white shortcontainer">
+        <p><b>時候不早</b></p>
+        <p><a href="https://youtu.be/x6SgVQEFG58" target="_blank">觀看影片</a><br><br></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container" id="container">
+      <a href="darkness.html"><img src="resources/darkness.jpg"  alt="看不到明天" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white longcontainer">
         <p><b>看不到明天</b></p>
         <p>昨日已是 一張張照片<br>
-          你若要懷念那年 寧靜過的昨天...<a href="https://frankietomato.w3spaces.com/darkness.html">more</a></p>
+          你若要懷念那年 寧靜過的昨天...<a href="darkness.html">more</a></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv cover">
-      <img src="https://frankietomato.w3spaces.com/fly.jpg?bypass-cache=1630236188" alt="人類不宜飛行" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv cover">
-      <img src="https://frankietomato.w3spaces.com/unknown.jpg?bypass-cache=1630236259" alt="搞不懂" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container" id="container">
+      <a href="https://youtu.be/vlbhCYupGHs"><img src="resources/isolation.jpg" alt="隔離" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white shortcontainer">
+        <p><b>隔離</b></p>
+        <p><a href="https://youtu.be/vlbhCYupGHs" target="_blank">觀看影片</a><br><br></p>
       </div>
     </div>
   </div>
-
   <!-- Pagination -->
-  <div class="w3-center w3-padding-32" id="pagination">
+  <!-- <div class="w3-center w3-padding-32">
     <div class="w3-bar">
       <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
       <a href="#" class="w3-bar-item w3-black w3-button">1</a>
@@ -201,17 +217,7 @@
       <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
       <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
     </div>
-  </div>
-<script>
-  $('#pagination').pagination({
-    dataSource: [1, 2, 3, 4, 5],
-    callback: function(data, pagination) {
-        // template method of yourself
-        var html = template(data);
-        dataContainer.html(html);
-    }
-})
-</script>
+  </div> -->
 
   <!-- Images of Me -->
   <!-- <div class="w3-row-padding w3-padding-16" id="about">
@@ -226,30 +232,30 @@
   <div class="w3-container w3-padding-large" style="background-color: rgb(218, 218, 218);" id="about">
     <h4><br><b>About Me</b></h4>
     <p>喜歡文字、喜歡音樂，故以歌詞表達自己，紀錄一切喜怒哀樂。</p>
-    <br>
+    <br><br>
     
-    <h4>Technical Skills</h4>
+    <h4><b>Technical Skills</b></h4>
     <!-- Progress bars / Skills -->
     <p>Lyrics</p>
     <div class="w3-grey">
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
     </div><br>
-    <p>DAW skills</p>
+    <p>DAW skills and Mixing</p>
     <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
     </div><br>
-    <p>Arrangement</p>
+    <!-- <p>Arrangement</p>
     <div class="w3-grey">
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
-    </div><br>
-    <p>Composing</p>
+    </div><br> -->
+    <p>Arranging</p>
     <div class="w3-grey">
       <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%">60%</div>
     </div><br>
     <p>
-      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+      <!-- <a href="https://frankietomato.w3spaces.com/CV.pdf" download><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
         <i class="fa fa-download w3-margin-right"></i>Download Resume
-      </button>
+      </button></a> -->
     </p><br>
   </div>
   
@@ -260,20 +266,20 @@
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third w3-dark-grey">
         <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-        <p><a href="mailto:tomatotofrankie@gmail.com" title="Email me">tomatotofrankie@gmail.com</a></p>
+        <p><a href="mailto:chankinching2@gmail.com" title="Email me">chankinching2@gmail.com</a></p>
       </div>
       <div class="w3-third w3-teal">
         <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
         <p>Hong Kong</p>
       </div>
       <div class="w3-third w3-dark-grey">
-        <p><img src="https://frankietomato.w3spaces.com/ig.png?bypass-cache=1630036995" alt="Instagram" style="width:37px;height:37px"></p>
+        <p><img src="resources/ig.png" alt="Instagram" style="width:37px;height:37px"></p>
         <!-- https://frankietomato.w3spaces.com/ig.png?bypass-cache=1630036995 -->
         <p><a href="https://www.instagram.com/tomato.frankie/" title="IG" target="_blank">@tomato.frankie</a></p>
       </div>
     </div>
     <hr class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
+    <!-- <form action="mailto:tomatotofrankie@gmail.com" method="post">
       <div class="w3-section">
         <label>Name</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
@@ -288,15 +294,18 @@
       </div>
       <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
       </form>
-      <button onclick="topFunction()" class="w3-button w3-margin-bottom w3-round-large w3-block">Back to top <i class="fa fa-level-up"></i></button>
-    
-  </div>
-
-  
+      
+  </div> -->
+  <button onclick="topFunction()" class="w3-button w3-margin-bottom w3-round-large w3-block">Back to top <i class="fa fa-level-up"></i></button>
   <div class="w3-black w3-center w3-padding-24"><a href="https://www.youtube.com/channel/UCWo5mWNWD2Glki2KsYwOJ8A" title="Tomatofrankie" target="_blank" class="w3-hover-opacity">Tomatofrankie</a>&nbsp@ 2018-present. All rights reserved.</div>
 
 <!-- End page content -->
 </div>
+
+</body>
+</html>
+
+
 
 <script>
 // Script to open and close sidebar
@@ -373,9 +382,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-
-
 </script>
 
-</body>
-</html>
+
