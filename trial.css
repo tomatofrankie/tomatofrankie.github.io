@@ -1,0 +1,17 @@
+/* body {
+    /* padding: 25px;
+    font-size: 25px; */
+  } */
+  @media (prefers-color-scheme: light) {
+      body {
+          background-color: white;
+          color: black;
+      }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+      body {
+          background-color: rgb(146, 145, 145);
+          color: white;
+      }
+  }

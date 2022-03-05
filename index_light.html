@@ -14,9 +14,12 @@
 <meta name="application-name" content="Tomato's Portfolio">
 <meta name="apple-mobile-web-app-title" content="Tomato's Portfolio">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="light.css" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet/less" type="text/css" href="light.less" />
+<script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
 
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png?">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png?">
@@ -38,7 +41,7 @@
 <meta name="theme-color" content="#ffffff">
 
 <style>
-    /* body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif} */
+
 .filterDiv {
   float: left;
   display: none;
@@ -103,14 +106,15 @@
   height: 91px
 }
 
+
 </style>
 </head>
 
-<body class="w3-content w3-light-grey" style="max-width:1600px">
+<body class="w3-content" style="max-width:1600px">
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
   <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding close-menu" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
     <!-- <img src="android-icon-144x144.png" style="width:15%;" class="w3-round"> -->
@@ -137,7 +141,7 @@
   <button class="w3-hide-medium w3-hide-large" onclick="topFunction()" id="myBtn" title="Go to top">Top <i class="fa fa-level-up"></i></button>
   <!-- Header -->
   <header id="portfolio">
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <span class="w3-button w3-hide-large w3-xxlarge open-menu w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
     <h1 class="w3-padding-16 w3-topbar w3-bottombar w3-hide-large"><b>My Portfolio</b></h1>
     <h1 class="w3-padding-16 w3-bottombar w3-hide-small w3-hide-medium w3-margin-top"><b>My Portfolio</b></h1>
@@ -228,7 +232,7 @@
     </div>
   </div> -->
 
-  <div class="w3-container w3-padding-large" style="background-color: rgb(218, 218, 218);" id="about">
+  <div class="w3-container w3-padding-large about-me" id="about">
     <h4><br><b>About Me</b></h4>
     <p>喜歡文字、喜歡音樂，故以歌詞表達自己，紀錄一切喜怒哀樂。</p>
     <br><br>
@@ -236,20 +240,20 @@
     <h4><b>Technical Skills</b></h4>
     <!-- Progress bars / Skills -->
     <p>Lyrics</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+    <div class="skills-full">
+      <div class="w3-container w3-padding w3-center skills-bar" style="width:95%">95%</div>
     </div><br>
     <p>DAW skills and Mixing</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    <div class="skills-full">
+      <div class="w3-container w3-padding w3-center skills-bar" style="width:85%">85%</div>
     </div><br>
     <!-- <p>Arrangement</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
+    <div class="skills-full">
+      <div class="w3-container w3-padding w3-center skills-bar" style="width:70%">70%</div>
     </div><br> -->
     <p>Arranging</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%">60%</div>
+    <div class="skills-full">
+      <div class="w3-container w3-padding w3-center skills-bar" style="width:60%">60%</div>
     </div><br>
     <p>
     </p><br>
@@ -257,18 +261,18 @@
   
   
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-large w3-light-grey">
+  <div class="w3-container w3-padding-large contact">
     <h4 id="contact"><b>Contact Me</b></h4>
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-      <div class="w3-third w3-dark-grey">
-        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+      <div class="w3-third contact-details">
+        <p><i class="fa fa-envelope w3-xxlarge contact-icon"></i></p>
         <p><a href="mailto:tomatotofrankie@gmail.com" title="Email me">tomatotofrankie@gmail.com</a></p>
       </div>
-      <div class="w3-third w3-teal">
-        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+      <div class="w3-third contact-location">
+        <p><i class="fa fa-map-marker w3-xxlarge contact-icon"></i></p>
         <p>Hong Kong</p>
       </div>
-      <div class="w3-third w3-dark-grey">
+      <div class="w3-third contact-details">
         <p><img src="resources/ig.png" alt="Instagram" style="width:37px;height:37px"></p>
         <p><a href="https://www.instagram.com/tomato.frankie/" title="IG" target="_blank">@tomato.frankie</a></p>
       </div>

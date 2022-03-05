@@ -1,45 +1,45 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" href="trial2.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <script src="https://cdn.jsdelivr.net/npm/less@4" ></script> -->
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<style>
+   /* body {
+    padding: 25px;
+    font-size: 25px;
+   } */
+  @media (prefers-color-scheme: light) {
+      body {
+          background-color: white;
+          color: black;
+      }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+      body {
+          background-color: rgb(146, 145, 145);
+          color: white;
+      }
+  }
+</style>
+</head>
+<body>
 
-        <title>My scratchboard page</title>
-    </head>
+<h2 id="body3">Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
 
-    <body>
-        <nav class="navbar navbar-inverse">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">My scratchpad</a>
-            </div>
-          </div>
-        </nav>
+<button onclick="darkmode()">Toggle dark mode</button>
 
-        <div class="container">
-            <br><br>Leave your comments about @tomatoisabot<br>
-            {% for comment in comments %}
-                <div class="row">
-                    {{ comment }}
-                </div>
-            {% endfor %}
+<script>
+function darkmode() {
+   var element = document.body;
+   element.classList.toggle("darkmode");
+}
+</script>
 
-            <div class="row">
-                <form action="." method="POST">
-                    <textarea class="form-control" name="contents" placeholder="Enter a comment"></textarea>
-                    <input type="submit" class="btn btn-success" value="Post comment">
-                </form>
-            </div>
-
-        </div>
-
-    </body>
+</body>
 </html>
+
+
