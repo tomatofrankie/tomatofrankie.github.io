@@ -79,6 +79,8 @@
   user-select: none !important;
 }
 
+
+
 @media (prefers-color-scheme: light) {
   h1 {
     color: #172d42;
@@ -115,6 +117,18 @@
   .btn.active {
       background-color: rgb(44, 93, 148);
       color: rgb(245, 245, 245);
+  }
+  @media (max-width:600px) {
+    .btn {
+      border-radius: 1px !important;
+      background-color:rgb(241, 255, 255) !important;
+    }
+    .btn:hover {
+      background-color: rgb(202, 235, 255) !important;
+    }
+    .btn.active {
+        background-color: rgb(44, 93, 148) !important;
+        color: rgb(245, 245, 245) !important;
   }
   .vids {
     color: #000 !important;
