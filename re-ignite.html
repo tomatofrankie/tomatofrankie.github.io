@@ -24,7 +24,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="TomatoFrankie, Tomato 番茄, 原創, 廣東歌, Cantopop, 填詞">
-<link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,8 +40,23 @@
     h1 {
         text-align: center;
     }
+    #myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      outline: none; /* Remove outline */
+      color: black ; /* Text color */
+      cursor: auto; /* Add a mouse pointer on hover */
+      padding: 10px; /* Some padding */
+      border: none;
+      border-radius: 10px; /* Rounded corners */
+      font-size: 18px; /* Increase font size */
+      background-color: transparent;
+    }
 </style>
-<body class="w3-content" style="max-width:1600px">
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -57,9 +71,9 @@
     <div class="w3-container">
     <br><br>
     <a style="text-decoration: none; font-size: large;" href="index.html">&#8592 Back</a>
-    <br><br><h1 class="title-top-bottom w3-padding"><b>重燃</b></h1><br><br>
+    <br><br><h1 class="w3-border-bottom w3-border-top w3-padding"><b>重燃</b></h1><br><br>
     <iframe height="480" src="https://www.youtube.com/embed/7SZ0PtzVrxo" class="center" allow="fullscreen"></iframe><br><br>
-    <pre class="center w3-border w3-round"> 
+    <pre style="background-color:rgb(253, 253, 253);" class="center w3-border w3-round"> 
 
     (原曲：拍一半拖 陳柏宇)
 
@@ -107,10 +121,9 @@
     </div>
   <br><br>
 
-  <footer>
-    <div class="w3-center w3-padding-24">
-      <a href="https://www.youtube.com/channel/UCWo5mWNWD2Glki2KsYwOJ8A" title="Tomatofrankie" target="_blank" class="w3-hover-opacity">Tomatofrankie</a>&nbsp@ 2018-present. All rights reserved.</div>
-  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24"><a href="https://www.youtube.com/channel/UCWo5mWNWD2Glki2KsYwOJ8A" title="Tomatofrankie" target="_blank" class="w3-hover-opacity">Tomatofrankie</a>&nbsp@ 2018-present. All rights reserved.</div>
+
 <!-- End page content -->
 </div>
 
