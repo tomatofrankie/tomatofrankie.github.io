@@ -35,7 +35,7 @@
   }
   .contact-location {
     color: #fff !important;
-    background-color: #009688 !important;
+    background-color: #2d1f3f !important;
   }
   .contact-details {
     color: #fff !important;
@@ -100,7 +100,7 @@
         background-color: rgb(71, 71, 71) !important;
       }
       .youtube {
-        -webkit-filter: invert(100%);
+        filter: invert(100%);
       }
       .title-top-bottom {
         border-top:6px solid rgb(97, 97, 97)!important;
@@ -162,7 +162,7 @@
       }
       .contact-location {
         color: #fff !important;
-        background-color: #009688 !important;
+        background-color: #2d1f3f !important;
       }
       .contact-details {
         color: #fff !important;
