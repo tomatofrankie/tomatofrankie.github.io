@@ -1,45 +1,8 @@
-<!DOCTYPE html>
-<html>
 <head>
-<link rel="stylesheet" href="trial2.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <script src="https://cdn.jsdelivr.net/npm/less@4" ></script> -->
-
-<style>
-   /* body {
-    padding: 25px;
-    font-size: 25px;
-   } */
-  @media (prefers-color-scheme: light) {
-      body {
-          background-color: white;
-          color: black;
-      }
-  }
-  
-  @media (prefers-color-scheme: dark) {
-      body {
-          background-color: rgb(146, 145, 145);
-          color: white;
-      }
-  }
-</style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
 
-<h2 id="body3">Toggle Dark/Light Mode</h2>
-<p>Click the button to toggle between dark and light mode for this page.</p>
-
-<button onclick="darkmode()">Toggle dark mode</button>
-
-<script>
-function darkmode() {
-   var element = document.body;
-   element.classList.toggle("darkmode");
-}
-</script>
-
-</body>
-</html>
-
-
+<span class="w3-button w3-hide-large open-menu nav-filter" style="font-size: 32px;" onclick="w3_open()"><i class="fa fa-bars"></i></span>
