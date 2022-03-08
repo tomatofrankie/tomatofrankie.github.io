@@ -100,7 +100,7 @@
         background-color: rgb(71, 71, 71) !important;
       }
       .youtube {
-        -webkit-filter: invert(100%);
+        filter: invert(100%);
       }
       .title-top-bottom {
         border-top:6px solid rgb(97, 97, 97)!important;
@@ -142,9 +142,7 @@
           color: rgb(56, 56, 56);
       }
       .vids-container {
-        border: 10px;
-        border-color: #fff;  
-        border-radius: 10px;  
+        
       }
       .vids {
         background-color:rgb(58, 58, 58)!important;
