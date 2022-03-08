@@ -39,6 +39,26 @@
   filter: opacity(50%) ;
 }
 
+.nav-block {
+  border: none ;
+  display: inline-block ;
+  padding: 8px 16px ;
+  vertical-align: middle ;
+  overflow: hidden ;
+  text-decoration: none ;
+  color: inherit ;
+  background-color: inherit ;
+  text-align: center ;
+  cursor: pointer ;
+  white-space: nowrap ;
+  -webkit-touch-callout: none ;
+  -webkit-user-select: none ;
+  -khtml-user-select: none ;
+  -moz-user-select: none ;
+  -ms-user-select: none ;
+  user-select: none ;
+}
+
 .bottom-button {
   border: none !important;
   display: inline-block !important;
@@ -127,7 +147,7 @@
   .contact-icon {
     color: #f1f1f1 !important;
   }
-  .bottom-button:hover {
+  .nav-block:hover, .bottom-button:hover {
     color:#000!important;
     background-color:rgb(202, 235, 255)!important
   }
