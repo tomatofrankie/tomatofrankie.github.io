@@ -1,4 +1,4 @@
- @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   body {
     color: #000 !important;
     background-color: #f1f1f1 !important;
@@ -35,11 +35,7 @@
   }
   .contact-location {
     color: #fff !important;
-<<<<<<< HEAD
-    background-color: #1f203f !important;
-=======
-    background-color: #009688 !important;
->>>>>>> parent of c0bf68b (color)
+    background-color: #261b4d !important;
   }
   .contact-details {
     color: #fff !important;
@@ -54,6 +50,18 @@
   }
   #myBtn {
     color: black ;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    outline: none; /* Remove outline */
+    cursor: auto; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    background-color: transparent;
   }
   .btn {
     border: none;
@@ -76,7 +84,10 @@
       background-color: black;
       color: whitesmoke;
   }
-      
+   
+  pre {
+    background-color:rgb(253, 253, 253)
+  }
 }
   
   @media (prefers-color-scheme: dark) {
@@ -99,7 +110,19 @@
         border-bottom:6px solid rgb(82, 82, 82)!important
       }
       #myBtn {
-        color: rgb(46, 46, 46) ;
+        color: rgb(209, 209, 209) ;
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        outline: none; /* Remove outline */
+        cursor: auto; /* Add a mouse pointer on hover */
+        padding: 10px; /* Some padding */
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+        background-color: transparent;
       }
       .btn {
         border: none;
@@ -127,7 +150,7 @@
         background-color:rgb(58, 58, 58)!important;
       }
       .about-me {
-        background-color: #6e6e6e;
+        background-color: #3d3d3d;
       }
       .skills-full {
         color: #000 !important;
@@ -135,15 +158,11 @@
       }
       .skills-bar {
         color: #fff !important;
-        background-color: #494949 !important;
+        background-color: #616161 !important;
       }
       .contact-location {
         color: #fff !important;
-<<<<<<< HEAD
-        background-color: #75579b !important;
-=======
-        background-color: #009688 !important;
->>>>>>> parent of c0bf68b (color)
+        background-color: #585d9e !important;
       }
       .contact-details {
         color: #fff !important;
@@ -154,6 +173,9 @@
       }
       footer {
         color:rgb(0, 0, 0)!important;
-        background-color:rgb(179, 179, 179)!important 
+        background-color:rgb(209, 209, 209)!important 
+      }
+      pre {
+        background-color:rgb(75, 75, 75)
       }
   }
