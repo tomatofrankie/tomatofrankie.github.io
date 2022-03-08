@@ -84,9 +84,9 @@
 @media (prefers-color-scheme: light) {
   @media (min-width:993px) {
     nav {
-      border: 1px;
-      border-color: rgb(0, 4, 61);
-      border-style: none solid none none !important;
+      border: 2px;
+      border-color: rgb(149, 152, 202);
+      border-style: none dotted none none !important;
     }
   }
   h1 {
