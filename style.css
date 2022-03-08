@@ -35,7 +35,11 @@
   }
   .contact-location {
     color: #fff !important;
+<<<<<<< HEAD
     background-color: #1f203f !important;
+=======
+    background-color: #009688 !important;
+>>>>>>> parent of c0bf68b (color)
   }
   .contact-details {
     color: #fff !important;
@@ -100,7 +104,7 @@
         background-color: rgb(71, 71, 71) !important;
       }
       .youtube {
-        filter: invert(100%);
+        -webkit-filter: invert(100%);
       }
       .title-top-bottom {
         border-top:6px solid rgb(97, 97, 97)!important;
@@ -162,7 +166,11 @@
       }
       .contact-location {
         color: #fff !important;
+<<<<<<< HEAD
         background-color: #75579b !important;
+=======
+        background-color: #009688 !important;
+>>>>>>> parent of c0bf68b (color)
       }
       .contact-details {
         color: #fff !important;
