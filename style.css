@@ -139,8 +139,8 @@
     }
   }  
   .vids {
-    color: #000 !important;
-    background-color: rgb(255, 255, 255) !important;
+    /* color: #000 !important;
+    background-color: rgb(255, 255, 255) !important; */
     border-style: hidden dotted dotted;
   }
   .about-me {
