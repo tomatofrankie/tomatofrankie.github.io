@@ -1,3 +1,26 @@
+.typewriter{
+  color: #172d42;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
 .filterDiv {
   float: left;
   display: none;
@@ -103,11 +126,12 @@
     color: #000 !important;
     background-color: rgb(242, 252, 255) !important;
   }
+  .nav-block:hover, .bottom-button:hover {
+    color:#000!important;
+    background-color:rgb(202, 235, 255)!important
+  }
   .title-top-bottom {
     border-top: 6px solid rgb(239, 239, 239) !important;
-    border-bottom: 6px solid rgb(239, 239, 239) !important;
-  }
-  .tittle-bottom {
     border-bottom: 6px solid rgb(239, 239, 239) !important;
   }
   .btn {
@@ -169,10 +193,6 @@
   .contact-icon {
     color: #f1f1f1 !important;
   }
-  .nav-block:hover, .bottom-button:hover {
-    color:#000!important;
-    background-color:rgb(202, 235, 255)!important
-  }
   footer {
     color: #fff !important;
     background-color: #172d42 !important;
@@ -202,12 +222,20 @@
         background-color: rgb(39, 39, 39);
         color: white;
     }
+    .nav-button:hover {
+      filter: opacity(0.9) !important;
+      }
     nav {
       color: rgb(255, 255, 255) !important;
       background-color: rgb(71, 71, 71) !important;
     }
-    .youtube {
+    .invert {
       filter: invert(100%);
+      overflow: hidden;
+    }
+    .nav-block:hover {
+      color:rgb(224, 224, 224)!important;
+      background-color:rgb(29, 29, 29)!important
     }
     .title-top-bottom {
       border-top:6px solid rgb(97, 97, 97)!important;
@@ -265,7 +293,7 @@
     }
     .contact-location {
       color: #fff !important;
-      background-color: #585d9e !important;
+      background-color: #464646 !important;
     }
     .contact-details {
       color: #fff !important;
@@ -273,6 +301,10 @@
     }
     .contact-icon {
       color: #f1f1f1 !important;
+    }
+    .bottom-button:hover {
+      color:rgb(0, 0, 0)!important;
+      background-color:rgb(199, 199, 199)!important
     }
     footer {
       color:rgb(0, 0, 0)!important;
