@@ -1,7 +1,6 @@
   .typewriter {
-  border-right: .15em solid rgb(0, 195, 255);
   font-family: "Courier";
-  font-size: 32px;
+  font-size: 42px;
   white-space: nowrap;
   overflow: hidden;
   width: 7.35em;
@@ -147,6 +146,9 @@
   h1 {
     color: #172d42;
   }
+  .typewriter {
+    border-right: .15em solid rgb(0, 195, 255);
+  }
   .nav-button:hover {
   color:#1c82a1 !important;
   }
@@ -260,6 +262,9 @@
     nav {
       color: rgb(255, 255, 255) !important;
       background-color: rgb(71, 71, 71) !important;
+    }
+    .typewriter {
+      border-right: .15em solid rgb(255, 255, 255);
     }
     .invert {
       filter: invert(100%);
