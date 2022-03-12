@@ -1,62 +1,10 @@
-<style>
-  .css-typing p {
-border-right: .15em solid rgb(0, 195, 255);
-font-family: "Courier";
-font-size: 14px;
-white-space: nowrap;
-overflow: hidden;
-}
-
-.css-typing {
-width: 7.3em;
-opacity: 0;
--webkit-animation: type 5s steps(20, end), blink .5s step-end infinite alternate;
-animation: type 5s steps(20, end), blink .5s step-end infinite alternate;
--webkit-animation-delay: 0s;
-animation-delay: 0s;
--webkit-animation-fill-mode: forwards;
-animation-fill-mode: forwards;
-}
-
- 
-@keyframes type {
-0% {
-  width: 0;
-}
-1% {
-  opacity: 1;
-}
-100% {
-  opacity: 1;
-}
-}
-
-@-webkit-keyframes type {
-0% {
-  width: 0;
-}
-1% {
-  opacity: 1;
-}
-100% {
-  opacity: 1;
-}
-}
-
-@keyframes blink {
-50% {
-  border-color: transparent;
-}
-}
-@-webkit-keyframes blink {
-50% {
-  border-color: transparent;
-}
-}
-</style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <body>
-  <div style="position:absolute;" class="css-typing">
-          <p class="typewriter ">
-              My Portfolio</p></div>
+<div data-aos="fade-up">HI</div>
 </body>
+
+<script>
+  AOS.init();
+</script>

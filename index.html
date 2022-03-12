@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png?">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png?">
@@ -77,8 +79,8 @@
   <header id="portfolio">
     <span class="w3-hide-large open-menu nav-button" style="font-size: 32px;" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
-    <div class="w3-hide-large title-top-bottom"><h1 class="typewrite "><b>My Portfolio</b></h1></div>
-    <div><h1 class="w3-padding-16 w3-hide-small w3-hide-medium w3-margin-top"><b>My Portfolio</b></h1></div>
+    <div class="w3-hide-large title-top-bottom"><h1 class="typewriter"><b>My Portfolio</b></h1></div>
+    <div class="w3-padding-16 w3-hide-small w3-hide-medium w3-margin-top"><h1 class="typewriter"><b>My Portfolio</b></h1></div>
     <div class="w3-section" id="myVidContainer">
       <div class="w3-row"><br>
         <button class="btn active w3-col m2 fa w3-margin-right" onclick="filterSelection('all')">ALL</button>
@@ -90,21 +92,21 @@
   </header>
   <!--Photo Grids-->
   <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer" data-aos="fade-up">
       <a href="https://youtu.be/5NWm6NnIyKc"><img src="resources/half.jpg" alt="半" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>半</b></p>
         <p><a href="https://youtu.be/5NWm6NnIyKc" target="_blank">觀看影片</a><br><br></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer" data-aos="fade-up">
       <a href="https://youtu.be/x6SgVQEFG58"><img src="resources/abouttime.jpg" alt="時候不早" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>時候不早</b></p>
         <p><a href="https://youtu.be/x6SgVQEFG58" target="_blank">觀看影片</a><br><br></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer" data-aos="fade-up">
       <a href="re-ignite.html"><img src="resources/re-ignited.jpg" alt="重燃" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>重燃</b></p>
@@ -112,14 +114,14 @@
           如今這世界亦也都變...<a href="re-ignite.html" title="重燃">more</a></p>
       </div>
     </div>
-    <!-- <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer">
+    <!-- <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer" data-aos="fade-up">
       <a href="https://youtu.be/G3RADhu-dGU"><img src="resources/redscarf.jpg"  alt="如果可以" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>如果可以</b></p>
         <p><a href="https://youtu.be/G3RADhu-dGU" target="_blank">觀看影片</a><br><br></p>
       </div>
     </div> -->
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer" data-aos="fade-up">
       <a href="change.html"><img src="resources/change.jpg"  alt="突變" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>突變</b></p>
@@ -127,7 +129,7 @@
           你仍留在心中 忘記這舊愛...<a href="change.html" title="突變">more</a></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer" data-aos="fade-up">
       <a href="lost.html"><img src="resources/lost.jpg" alt="失約" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>失約</b></p>
@@ -137,7 +139,7 @@
     </div>
 
     
-    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv lyrics container bigcontainer" data-aos="fade-up">
       <a href="darkness.html"><img src="resources/darkness.jpg"  alt="看不到明天" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>看不到明天</b></p>
@@ -145,7 +147,7 @@
           你若要懷念那年 寧靜過的昨天...<a href="darkness.html">more</a></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer" data-aos="fade-up">
       <a href="https://youtu.be/vlbhCYupGHs"><img src="resources/isolation.jpg" alt="隔離" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
         <p><b>隔離</b></p>
@@ -166,10 +168,13 @@
   </div> -->
 
   <div class="w3-container w3-padding-large about-me" id="about">
-    <h3><br><b>About Me</b></h3>
-    <p>喜歡文字、喜歡音樂，故以歌詞表達自己，紀錄一切喜怒哀樂。</p>
+    <div data-aos="fade-up">
+      <h3><br><b>About Me</b></h3>
+      <p>喜歡文字、喜歡音樂，故以歌詞表達自己，紀錄一切喜怒哀樂。</p>
+    </div>
     <br><br>
     
+    <div data-aos="fade-up">
     <h4><b>Technical Skills</b></h4>
     <!-- Progress bars / Skills -->
     <p>Lyrics</p>
@@ -189,16 +194,16 @@
       <div class="w3-container w3-padding w3-center skills-bar" style="width:60%">60%</div>
     </div><br>
     <p>
-    </p><br>
+    </p><br></div>
   </div>
   
   
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-large contact">
+  <div class="w3-container w3-padding-large contact" data-aos="fade-up">
     <h4 id="contact"><b>Contact Me</b></h4>
     <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
       <div class="w3-third contact-details">
-        <p class="invert"><i class="fa fa-envelope w3-xxlarge" style="filter: invert();"></i></p>
+        <p class="inver"><i class="fa fa-envelope w3-xxlarge"></i></p>
         <p><a href="mailto:tomatotofrankie@gmail.com" title="Email me">tomatotofrankie@gmail.com</a></p>
       </div>
       <div class="w3-third contact-location">
@@ -245,6 +250,7 @@
 
 <script>
 // Script to open and close sidebar
+AOS.init();
 function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
