@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css"> -->
+<!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script> -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
@@ -91,7 +93,7 @@
     </div>
   </header>
   <!--Photo Grids-->
-  <div class="w3-row-padding w3-margin-bottom">
+  <div class="w3-row-padding w3-margin-bottom" style="position:relative;z-index: -1;">
     <div class="w3-third w3-container w3-margin-bottom filterDiv cover container bigcontainer" data-aos="fade-up">
       <a href="https://youtu.be/5NWm6NnIyKc"><img src="resources/half.jpg" alt="半" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container vids">
@@ -243,12 +245,12 @@
 
 
 <script>
-// AOS.init();
-AOS.init({
-  startEvent: 'load',
-  disableMutationObserver: false,
-});
-AOS.refresh(true); 
+AOS.init();
+// AOS.init({
+//   startEvent: 'load',
+//   disableMutationObserver: false,
+// });
+// AOS.refresh(true); 
 
 // Script to open and close sidebar
 function w3_open() {
