@@ -243,8 +243,12 @@
 
 
 <script>
-AOS.init();
-window.addEventListener('load', AOS.refresh);
+// AOS.init();
+AOS.init({
+  startEvent: 'load',
+  disableMutationObserver: false,
+});
+AOS.refresh(true); 
 
 // Script to open and close sidebar
 function w3_open() {
